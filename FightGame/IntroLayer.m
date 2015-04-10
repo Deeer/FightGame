@@ -9,8 +9,6 @@
 
 // Import the interfaces
 #import "IntroLayer.h"
-#import "HelloWorldLayer.h"
-
 
 #pragma mark - IntroLayer
 
@@ -37,10 +35,16 @@
 -(void) onEnter
 {
 	[super onEnter];
+    
+
+//    _scene = [[GameScene node]retain];
+    _scene = [GameScene node];
+    [_scene retain];
+    
 
 	// ask director for the window size
 	CGSize size = [[CCDirector sharedDirector] winSize];
-
+    
 	CCSprite *background;
 	
 	if( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ) {
@@ -60,6 +64,16 @@
 
 -(void) makeTransition:(ccTime)dt
 {
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] withColor:ccWHITE]];
+//    _scene = [GameScene node];
+//    [_scene autorelease];
+    
+
+
+//    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:_scene withColor:ccWHITE]];
+//    [[CCDirector sharedDirector] pushScene:[GameScene node]];
+    [[CCDirector sharedDirector]pushScene:[StartScene node]];
+    
+    
+    
 }
 @end

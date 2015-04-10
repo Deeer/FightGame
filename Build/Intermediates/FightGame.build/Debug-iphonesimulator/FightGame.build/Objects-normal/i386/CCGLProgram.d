@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/CCGLProgram.m \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/CCGLProgram.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/ccMacros.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/ccConfig.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/Platforms/CCGL.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/Platforms/iOS/CCGLView.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/Platforms/iOS/CCESRenderer.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/ccGLStateCache.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/Support/CCFileUtils.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/Support/../ccTypes.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/Support/uthash.h \
+  /Users/zjsruxxxy3/Desktop/闻人超杰/myTest/FightGame/FightGame/libs/cocos2d/Support/OpenGL_Internal.h \
+  FightGame/libs/kazmath/include/kazmath/GL/matrix.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../mat4.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../utility.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../vec3.h \
+  FightGame/libs/kazmath/include/kazmath/kazmath.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../vec2.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../mat3.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../quaternion.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../plane.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../aabb.h \
+  FightGame/libs/kazmath/include/kazmath/GL/../ray2.h

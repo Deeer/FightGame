@@ -1,3 +1,6 @@
+
+
+
 //
 //  main.m
 //  FightGame
@@ -7,8 +10,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
 int main(int argc, char *argv[]) {
+    
+    
+//    for (id obj in [UIFont familyNames])
+//    {
+//        NSLog(@"%@",obj)
+//    }
     
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     int retVal = UIApplicationMain(argc, argv, nil, @"AppController");

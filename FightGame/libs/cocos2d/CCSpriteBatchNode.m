@@ -99,8 +99,8 @@ const NSUInteger defaultCapacity = 29;
 	return [self initWithTexture:tex capacity:capacity];
 }
 
-// Designated initializer
--(id)initWithTexture:(CCTexture2D *)tex capacity:(NSUInteger)capacity
+// Designated initializer      
+-(id)initWithTexture:(CCTexture2D*)tex capacity:(NSUInteger)capacity
 {
 	if( (self=[super init])) {
 

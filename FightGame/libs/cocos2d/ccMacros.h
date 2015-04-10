@@ -108,8 +108,7 @@ simple macro that swaps 2 variables
 /** @def CC_RADIANS_TO_DEGREES
  converts radians to degrees
  */
-#define CC_RADIANS_TO_DEGREES(__ANGLE__) ((__ANGLE__) * 57.29577951f) // PI * 180
-
+#define CC_RADIANS_TO_DEGREES(__ANGLE__) ((__ANGLE__) * 57.29577951f) // PI * 180 // 180/PI
 #define kCCRepeatForever UINT_MAX -1
 /** @def CC_BLEND_SRC
 default gl blend src function. Compatible with premultiplied alpha images.
